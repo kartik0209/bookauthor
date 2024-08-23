@@ -35,7 +35,7 @@
 
    For the client:
    ```bash
-   cd ../client
+   cd client
    npm install
    ```
 
@@ -44,8 +44,7 @@
    Create a `.env` file in the `server` directory and add the following variables:
 
    ```env
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
+   DATABASE=your_mongodb_database
    ```
 
    Replace `your_mongodb_connection_string` and `your_jwt_secret` with your actual MongoDB URI and JWT secret.
@@ -60,7 +59,7 @@
 
    Start the client:
    ```bash
-   cd ../client
+   cd client
    npm start
    ```
 
