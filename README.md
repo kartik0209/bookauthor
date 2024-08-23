@@ -47,8 +47,6 @@
    DATABASE=your_mongodb_database
    ```
 
-   Replace `your_mongodb_connection_string` and `your_jwt_secret` with your actual MongoDB URI and JWT secret.
-
 5. **Start the Application**
 
    Start the server:
